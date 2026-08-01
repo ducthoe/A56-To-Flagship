@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <allowed-system-preload package="com.samsung.android.app.interpreter"/>
+    <allowed-system-preload package="com.samsung.android.hwresourceshare"/>
+    <allowed-system-preload package="com.samsung.mediasearch"/>
+    <allowed-system-preload package="com.samsung.android.mhs.ai"/>
+    <allowed-system-preload package="com.samsung.android.offline.languagemodel"/>
+    <allowed-system-preload package="com.samsung.petservice"/>
+    <allowed-system-preload package="com.samsung.android.camerasdkservice"/>
+    <allowed-system-preload package="com.samsung.android.aicore"/>
+    <allowed-system-preload package="com.samsung.android.ssco"/>
+    <allowed-system-preload package="com.samsung.android.app.sketchbook"/>
+    <allowed-system-preload package="com.sec.tasmanager"/>
+    <allowed-system-preload package="com.samsung.android.vision.model"/>
+    <allow-in-power-save package="com.samsung.android.app.interpreter"/>
+    <allow-in-power-save package="com.samsung.android.smartsuggestions"/>
+    <allow-in-power-save package="com.sec.tasmanager"/>
+    <allow-in-data-usage-save package="com.sec.tasmanager"/>
+    <allow-association target="com.samsung.android.smartsuggestions" allowed="com.samsung.mediasearch"/>
+    <allow-association target="com.samsung.android.smartsuggestions" allowed="com.samsung.android.ssco"/>
+    <allow-association target="com.samsung.android.smartsuggestions" allowed="com.samsung.android.app.sketchbook"/>
+    <allow-association target="com.samsung.android.smartsuggestions" allowed="com.samsung.android.aicore"/>
+</config>

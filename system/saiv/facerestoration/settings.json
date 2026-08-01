@@ -1,0 +1,14 @@
+{
+  "baseTune": "eureka",
+  "version": "1",
+  "set_bv_th": -3.5,
+  "set_bv_min": -1.5,
+  "set_bv_max": -1,
+  "set_face_count": 1,
+  "set_fr_manual": 1,
+  "set_brow_level": 0,
+  "set_eye_level": 0,
+  "set_hair_level": 0,
+  "set_beard_level": 100,
+  "set_mouth_level": 0
+}
