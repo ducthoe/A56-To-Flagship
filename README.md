@@ -34,6 +34,10 @@ This module brings S25FE features to the Galaxy A56.
 
 - KernelSU with [meta-overlayfs](https://github.com/KernelSU-Modules-Repo/meta-overlayfs/releases/) is mandatory.
 
+## Warning
+
+- **Please do not use APatch or any other tool that can modify boot partitions. This will cause a soft brick.**
+
 ## Install
 
 1. Flash the zip in KernelSU.
