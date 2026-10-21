@@ -1,0 +1,17 @@
+port com.samsung.android.mhs.ai
+port com.samsung.android.app.sketchbook
+port com.samsung.android.vision.model
+stock com.samsung.android.visual.cloudcore
+port com.samsung.android.app.interpreter
+port com.samsung.android.hwresourceshare
+port com.samsung.mediasearch
+port com.samsung.android.offline.languagemodel
+port com.samsung.petservice
+stock com.sec.android.mimage.photoretouching
+port com.samsung.android.camerasdkservice
+port com.samsung.android.aicore
+stock com.samsung.android.smartsuggestions
+port com.samsung.android.ssco
+stock com.samsung.android.wallpaper.live
+port com.sec.tasmanager
+stock com.samsung.android.wallpaper.res

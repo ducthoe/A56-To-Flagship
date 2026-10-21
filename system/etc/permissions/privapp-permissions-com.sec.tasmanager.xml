@@ -1,6 +1,8 @@
 <permissions>
     <privapp-permissions package="com.sec.tasmanager">
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
         <permission name="android.permission.SCHEDULE_EXACT_ALARM"/>
         <permission name="com.samsung.permission.WIFI_FACTORY_TEST"/>
+        <permission name="com.samsung.permission.HQM_NOTIFICATION_PERMISSION"/>
     </privapp-permissions>
 </permissions>

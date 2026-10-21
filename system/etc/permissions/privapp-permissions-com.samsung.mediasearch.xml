@@ -28,7 +28,7 @@ applications that come with the platform
        <permission name="com.samsung.cmh.data.READ" />
        <permission name="com.samsung.cmh.data.WRITE" />
        <permission name="com.samsung.android.providers.media.READ" />
-	     <permission name="com.samsung.android.providers.media.CMH" />
+         <permission name="com.samsung.android.providers.media.CMH" />
        <permission name="com.samsung.android.permission.SEM_MEDIA_CONTENTS" />
        <permission name="android.permission.RECEIVE_BOOT_COMPLETED" />
     </privapp-permissions>

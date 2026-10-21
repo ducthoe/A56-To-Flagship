@@ -44,5 +44,7 @@ https://source.android.com/docs/core/permissions/perms-allowlist
         <permission name="android.permission.SCHEDULE_EXACT_ALARM"/>
         <permission name="com.samsung.android.mcfds.permission.START_SERVICE" />
         <permission name="com.samsung.permission.WIFI_FACTORY_TEST"/>
+        <permission name="com.samsung.android.permission.HW_RESOURCE_SHARE" />
+        <permission name="android.permission.ACCESS_LOCAL_NETWORK" />
     </privapp-permissions>
 </permissions>

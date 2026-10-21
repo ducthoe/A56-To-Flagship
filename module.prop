@@ -1,6 +1,6 @@
 id=a56_to_flagship
-name=Init
-version=1.0.0
-versionCode=10000
+name=A56 To Flagship
+version=2.0.0
+versionCode=20000
 author=ducthoe
-description=Flagship features for Galaxy A56.
+description=Adds flagship features from S25 FE to A56

@@ -1,0 +1,7 @@
+<config>
+    <install-in-user-type package="com.samsung.android.visual.cloudcore">
+        <install-in user-type="FULL" />
+        <install-in user-type="PROFILE" />
+    </install-in-user-type>
+</config>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This xml file specifies that the app is to be installed for Main and Sub users (except System User).
+You can see this when you enter the shell command.
+    >> adb shell "cat /system/etc/sysconfig/preinstalled-packages-com.samsung.android.mhs.ai.MhsAiService.xml"
+-->
+<config>
+    <install-in-user-type package="com.samsung.android.mhs.ai.MhsAiService">
+        <install-in user-type="FULL" />
+        <install-in user-type="PROFILE" />
+    </install-in-user-type>
+</config>

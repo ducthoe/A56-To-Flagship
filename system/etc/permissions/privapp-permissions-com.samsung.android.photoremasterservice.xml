@@ -31,6 +31,6 @@ applications that come with the platform
        <permission name="com.samsung.android.permission.SEM_MEDIA_CONTENTS" />
        <permission name="com.samsung.cmh.data.READ" />
        <permission name="android.permission.WAKE_LOCK" />
-	   <permission name="com.sec.android.gallery3d.provider2.READ" />
+       <permission name="com.sec.android.gallery3d.provider2.READ" />
     </privapp-permissions>
 </permissions>

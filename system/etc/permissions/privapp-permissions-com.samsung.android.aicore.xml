@@ -3,5 +3,8 @@
     <permission name="android.permission.REAL_GET_TASKS"/>
     <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
     <permission name="mediatek.permission.ACCESS_APU_SYS"/>
+    <permission name="android.permission.ACCESS_NPU_MODEL_MANAGER_API"/>
+    <permission name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <permission name="android.permission.UPDATE_DEVICE_STATS"/>
   </privapp-permissions>
 </permissions>
