@@ -80,6 +80,8 @@ if [ "$FAILED" != 0 ]; then
   exit 1
 fi
 
+am force-stop com.sec.android.app.camera >/dev/null 2>&1 || true
+sh "$MODDIR/uninstall.sh" || exit 1
 touch "$MODDIR/disable" "$MODDIR/remove" || exit 1
 echo
 echo "Stock restore prepared. This module is marked for removal."

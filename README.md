@@ -27,7 +27,7 @@ This module brings S25FE features to the Galaxy A56.
 
 ### Camera
 
-- 4K60 partially works. At 1x zoom, the video records at around 40fps. This may be fixed in a future release.
+- 4K60 recording on the rear and front cameras.
 - RAW is working with LEVEL_3 enabled (patched with [Camera-Patcher](https://github.com/TBM13/Camera-Patcher)).
 
 ## Requirements
@@ -41,7 +41,7 @@ This module brings S25FE features to the Galaxy A56.
 ## Install
 
 1. Install [Magic Mount-rs](https://github.com/Tools-cx-app/meta-magic_mount-rs/releases/latest) through KernelSU Manager, then soft reboot to activate it. Skip this step if it is already installed and active.
-2. Open **Modules** in KernelSU Manager and install `A56-To-Flagship-OneUI9-MagicMount.zip`.
+2. Open **Modules** in KernelSU Manager and install `A56-To-Flagship-2.0.1.zip`.
 3. Wait for installation to finish successfully, then perform another **soft reboot**.
 4. Unlock the phone and let the Samsung apps finish loading. Open Galaxy Store to download any additional AI components or language packs you need.
 

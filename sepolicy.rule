@@ -1,0 +1,1 @@
+allow hal_camera_default pm_qos_file chr_file { getattr open write }

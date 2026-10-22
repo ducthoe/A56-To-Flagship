@@ -26,9 +26,11 @@ set_perm "$MODPATH/post-mount.sh" 0 0 0755
 set_perm "$MODPATH/boot-completed.sh" 0 0 0755
 set_perm "$MODPATH/action.sh" 0 0 0755
 set_perm "$MODPATH/restore-stock.sh" 0 0 0755
+set_perm "$MODPATH/uninstall.sh" 0 0 0755
 
 label_tree "$MODPATH/system" /system
 label_tree "$MODPATH/system/vendor" /vendor
+chcon u:object_r:vendor_file:s0 "$MODPATH/system/vendor/lib64/hw/camera.s5e8855.so"
 touch "$MODPATH/.restore-port-packages"
 ui_print "- One UI 9 payload prepared"
 ui_print "- Mount backend: Magic Mount-rs"
